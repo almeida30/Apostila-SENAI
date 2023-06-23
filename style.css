@@ -204,6 +204,69 @@ footer{
     align-items: center;
 }
 
+
 footer span{
     font-family: 'Courier New', Courier, monospace;
+}
+@media(max-width: 760px){
+.container-grid{
+    width: 85%;
+   }
+   .conteudo-header{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .conteudo-header a{
+    padding-left: 15px;
+
+   }
+
+   .texto-banner h1{
+    text-align: center;
+   }
+   .imagem-sobre{
+    width: 100%;
+   }
+
+ .conteudo-sobre{
+    display: flex;
+    flex-direction: column;
+ }
+
+   .texto-sobre{
+    width: 100%;
+    text-align: center;
+   }
+
+.texto-endereco{
+   width: 90%;
+}
+
+.texto-endereco p{
+    font-size: 15px;
+    width: 90%
+}
+
+.conteudo-endereco{
+    width: 100%;
+}
+.desafios{
+    justify-content: center;
+}
+
+.mouse{
+    display: none;
+}
+
+.conteudo-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.mapa{
+    display: none;
+}
+
 }
